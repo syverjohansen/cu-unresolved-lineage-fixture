@@ -1,0 +1,12 @@
+name: cu_unresolved_lineage_fixture
+version: "1.0.0"
+config-version: 2
+
+profile: cu_unresolved_lineage_fixture
+model-paths:
+  - models
+
+models:
+  cu_unresolved_lineage_fixture:
+    +materialized: table
+    +schema: cu_fixture
